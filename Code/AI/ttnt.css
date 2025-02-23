@@ -1,0 +1,49 @@
+.fa-brain {
+  color: red;
+  text-shadow: 0 0 2rem rgb(91, 15, 221);
+}
+.fa-house-user {
+  color: rgb(70, 92, 238);
+  text-shadow: none;
+}
+.congcu {
+  /* background-color: aqua; */
+  width: 86vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw; /* Khoảng cách giữa các icon */
+
+  margin: 2vh auto;
+  margin-left: 10%;
+}
+.AI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  box-shadow: 0 0 1rem cyan;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Giữ tỷ lệ ảnh, tránh méo */
+}
+@media only screen and (max-width: 600px) {
+  .congcu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 17%;
+  }
+
+  .AI {
+    width: 8rem;
+    height: 8rem;
+  }
+}
