@@ -128,16 +128,17 @@ h1{
 #toggleMode{
     position: fixed;
     top: 1vh;
-    right: 1vw;
+    right: 2vw;
     background-color: #007bff;
     color: white;
     border-radius: 3rem;
     border: none;
-    padding: 0.5rem;
+    padding: 0.9rem;
     font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 0 10px #00ffff;
+    
 }
 #toggleMode:hover{
     background-color: #0056b3;

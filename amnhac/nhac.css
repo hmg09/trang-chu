@@ -1,0 +1,89 @@
+.fa-music {
+    color: red;
+    text-shadow: 0 0 2rem rgb(91, 15, 221);
+  }
+  .fa-house-user {
+    color: rgb(70, 92, 238);
+    text-shadow: none;
+  }
+  .head{
+    padding-top: 3vh;
+  
+    user-select: none;
+    height: 15vh;
+    width:88vw;
+    background: black;
+    margin-top: -101vh;
+    margin-left: 10.5vw;
+    color: rgb(93, 247, 211);
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 2rem;
+    border: 0.1rem solid white;
+    text-shadow: 0rem 0rem 0.7rem white;
+  }
+  .amnhac{
+    
+   margin-top: -90%;
+   margin-left: 35%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    .thanh-ben{
+        width: 20vw;
+        height: 100vh;
+        background-color: black;
+        display: block;
+        border: 0.1rem double white;
+        border-radius: 2rem;
+    }
+    .head{
+        padding-top: 1.5vh;
+    display: block;
+    user-select: none;
+    height: 6vh;
+    width:70vw;
+    background: black;
+    margin-top: -100vh;
+    margin-left: 24vw;
+    color: rgb(93, 247, 211);
+    font-size: 8vw;
+    text-align: center;
+    border-radius: 2rem;
+    border: 0.1rem solid white;
+    text-shadow: 0rem 0rem 0.7rem white;
+    }
+    .toggleMode{
+        margin-left: -5%;
+    }
+    .clock{
+        color: white;
+        user-select: none;
+        /* border: 0.1rem solid white; */
+        font-size: 5vw;
+        text-align: center;
+        border-radius: 50rem;
+        padding: 0.7rem;
+        margin-top: 1vh;
+        /* box-shadow: 0rem 0rem 1rem cyan; */
+    }
+    #info-box {
+        font-size: 5vw;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 1rem;
+        border-radius: 50rem;
+        display: inline-block;
+        box-shadow: 0 0 10px #00ffff;
+        color: #f0f0f0;
+        margin-left: 11vw;
+        margin-top: 1vh;
+        user-select: none;
+    }
+
+    .amnhac{
+        margin-top:-110%;
+        width: 70%;
+        margin-left: 25vw;
+    }
+}
