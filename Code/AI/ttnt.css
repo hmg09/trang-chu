@@ -25,7 +25,7 @@
   align-items: center;
   width: 15rem;
   height: 15rem;
-  box-shadow: 0 0 1rem cyan;
+  box-shadow: 0 0 1rem rgb(3, 249, 249);
   border-radius: 50%;
   overflow: hidden;
 }
